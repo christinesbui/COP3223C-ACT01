@@ -1,0 +1,58 @@
+/* Christine Bui
+09/09/2020
+COP 3223C Lecture 1 Assignment */
+
+// Problem 1 //
+#include <stdio.h>
+int main(void) {
+        
+        long int number_1, number_2, number_3, number_4, number_5;        // declare variables as long int
+        
+        printf("Enter the first number: ");
+        scanf("%d", &number_1);
+        printf("You entered is: %d\n", number_1);
+
+        printf("Enter the second number: ");
+        scanf("%d", &number_2);
+        printf("You entered is: %d\n", number_2);
+
+        printf("Enter the third number: ");
+        scanf("%d", &number_3);
+        printf("You entered is: %d\n", number_3);
+
+        printf("Enter the fourth number: ");
+        scanf("%d", &number_4);
+        printf("You entered is: %d\n", number_4);
+
+        printf("Enter the fifth number: ");
+        scanf("%d", &number_5);
+        printf("You entered is: %d\n", number_5);
+
+        printf("The sum of the numbers you entered is: %d\n", (number_1+number_2+number_3+number_4+number_5));      // sum of all the numbers together
+        printf("The average is: %.2lf", (double)(number_1+number_2+number_3+number_4+number_5)/5);                  // average of all the numbers together
+        
+        return 0;
+        }
+        
+// Problem 2 // 
+#include <stdio.h>
+int main(void) {
+
+        float length;
+        float width;
+        float height;
+        float volume;
+        float volumeft;
+ 
+        printf("Enter the length, width, and height of the box in inches.\n");        // variables of the box
+        scanf("%f%f%f", &length, &width, &height);
+
+        volume = (length*width*height);             // calculate in inches
+        volumeft = (length*width*height) / 1728;    // calculat to feet 
+
+        printf("The volume of the box in cubic inches is %.2f\n", volume);
+        printf("The volume of the box in cubic feet is %.2f", volumeft);
+
+        return 0;
+        }
+        
