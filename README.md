@@ -1,5 +1,5 @@
 ## cop3223c-act01
-declaring and reading integers, calculating basic mathematics in C
+write 2 programs declaring and reading integers, calculating basic mathematics in C
 
 ### problem 1
 declare 5 variables of type long int. read 5 integers from the user.\
